@@ -11,7 +11,7 @@ namespace SimpleAPI.Test
         public void GetReturnsInputValue()
         {
             var returnValue = controller.Get(15);
-            Assert.Equal(15,returnValue.Value);
+            Assert.Equal(16,returnValue.Value);
         }
     }
 }
